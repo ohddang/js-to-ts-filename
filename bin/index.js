@@ -4,7 +4,6 @@ const fs = require("fs");
 const path = require("path");
 
 function renameFilesInDirectory(directory, oldPart, newPart) {
-  console.log(`Start renaming files in ${directory}... ${oldPart} -> ${newPart}`);
   fs.readdir(directory, (err, files) => {
     if (err) {
       console.error("Could not list the directory.", err);

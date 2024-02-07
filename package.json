@@ -1,6 +1,6 @@
 {
   "name": "js-to-ts-filename",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "all filename changes .js -> .ts, .jsx -> .tsx",
   "main": "./bin/index.js",
   "scripts": {
