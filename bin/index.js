@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 
-function renameFilesInDirectory(directory = process.cwd(), oldPart, newPart) {
+function renameFilesInDirectory(directory, oldPart, newPart) {
   console.log(`Start renaming files in ${directory}... ${oldPart} -> ${newPart}`);
   fs.readdir(directory, (err, files) => {
     if (err) {
@@ -34,6 +34,8 @@ function renameFilesInDirectory(directory = process.cwd(), oldPart, newPart) {
   });
 }
 
+const directory = process.argv[2] || path.join(process.cwd(), "src");
+
 // Usage
-renameFilesInDirectory(undefined, ".js", ".ts");
-renameFilesInDirectory(undefined, ".jsx", ".tsx");
+renameFilesInDirectory(directory, ".js", ".ts");
+renameFilesInDirectory(directory, ".jsx", ".tsx");
