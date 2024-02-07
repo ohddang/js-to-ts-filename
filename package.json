@@ -1,0 +1,29 @@
+{
+  "name": "js-to-ts-filename",
+  "version": "1.0.0",
+  "description": "all filename changes .js -> .ts, .jsx -> .tsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohddang/js-to-ts-filename.git"
+  },
+  "bin": {
+    "js-to-ts-filename": "index.js"
+  },
+  "keywords": [
+    "js",
+    "ts",
+    "migration",
+    "filename",
+    "change"
+  ],
+  "author": "ohddang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohddang/js-to-ts-filename/issues"
+  },
+  "homepage": "https://github.com/ohddang/js-to-ts-filename#readme"
+}
