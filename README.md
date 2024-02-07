@@ -1,2 +1,6 @@
 # js-to-ts-filename
-filename convert .js -> .ts, .jsx -> .tsx when javascript to typescript migration
+filename change .js -> .ts, .jsx -> .tsx
+please use carefully
+
+## How to use
+- npx js-to-ts-filename (path = "/src")
