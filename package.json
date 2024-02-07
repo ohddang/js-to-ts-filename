@@ -1,8 +1,8 @@
 {
   "name": "js-to-ts-filename",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "all filename changes .js -> .ts, .jsx -> .tsx",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ohddang/js-to-ts-filename.git"
   },
   "bin": {
-    "js-to-ts-filename": "index.js"
+    "js-to-ts-filename": "./bin/index.js"
   },
   "keywords": [
     "js",
