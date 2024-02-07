@@ -19,6 +19,7 @@ function renameFilesInDirectory(directory = process.cwd(), oldPart, newPart) {
 
         if (stat.isFile() && file.includes(oldPart)) {
           const newFilePath = path.join(directory, file.replace(oldPart, newPart));
+          console.log(`Renaming ${filePath} to ${newFilePath}`);
           fs.rename(filePath, newFilePath, (err) => {
             if (err) console.log("ERROR: " + err);
           });
